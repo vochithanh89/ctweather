@@ -1,5 +1,5 @@
 import { cloud, error, rain, snow, thunderstorm } from '../../assets/lottie';
-import { cloudImg, rainImg, snowImg, thunderstormImg, windImg } from '../../assets/img';
+import { cloudImg, rainImg, snowImg, thunderstormImg } from '../../assets/img';
 
 export const tempConverter = (temp) => {
     return Number.isFinite(temp) ? Math.round((9 / 5) * temp + 32) : null;
